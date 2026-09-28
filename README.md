@@ -1,22 +1,22 @@
-# 🧠 Agentic Study - Flashcard App
+# Easy Flashcards App
 
 > **Note:** This is a showcase repository for my portfolio. The complete source code is maintained in a private repository.
 
-> [**Download from the Play Store**](#) *(Link coming soon)* | [**Download Android APK**](https://github.com/<your-username>/agentic-study-showcase/releases) | [**Privacy Policy**](https://<your-username>.github.io/agentic-study-showcase/privacy-policy)
+> 🚀 How to Try the App | [**Download from the Play Store**](#) *(Link coming soon)* | [**Download Android APK**](https://github.com/P0liz/Easy-Flashcards-Showcase/releases) | [**Privacy Policy**](https://p0liz.github.io/Easy-Flashcards-Showcase/)
 
-Agentic Study is a mobile application (Android/iOS) for learning through flashcards. It uses Artificial Intelligence (Google Gemini) to automatically generate card decks from text and implements a **Leitner-based Spaced Repetition system**.
+Agentic Study is a mobile application (Android/iOS) for learning through flashcards. It uses Artificial Intelligence to automatically generate flashcards from text and implements a **Leitner-based Spaced Repetition system**.
 
 ---
 
 ## ✨ Key Features
 
-* **🤖 AI Generation (Data Extractor)**: Paste a text and let Gemini extract key concepts, transforming them into categorized atomic nodes (flashcards).
+* **AI Generation**: Paste a text and let the AI extract key concepts, transforming them into categorized and detailed flashcards.
 
-* **🔄 Remediation Loop**: If a card is answered incorrectly repeatedly, the AI intervenes to simplify and regenerate it.
+* **Remediation Loop**: If a card is answered incorrectly repeatedly, the AI intervenes to simplify and regenerate it.
 
-* **📚 5-Box Leitner Algorithm**: Adaptive spaced repetition with intervals of 1, 2, 4, 8, and 16 days. Mastered cards are permanently promoted.
+* **5-Level Leitner Algorithm**: Adaptive spaced repetition with intervals of 1, 2, 4, 7, and 14 days based on the card's level. Every correct answare makes the card level up, but If you cannot remember it at the next review, the card goes back to Level 1. Mastered cards (correct answare at Level 5) are permanently stored as trophies.
 
-* **🔒 Privacy-First (No DB)**: All decks and user progress live exclusively on the local device (`AsyncStorage`), with no cloud database.
+* **Privacy-First (No DB)**: All flashcards and user progress live exclusively on the local device with no cloud database.
 
 ---
 
@@ -92,17 +92,6 @@ Engagement metrics are recalculated dynamically whenever the application starts 
 
 </p>
 
----
-
-## 🚀 How to Try the App
-
-1. **Android (Google Play Store)**: *(Link coming soon once the review process is complete)*.
-
-2. **Android (APK Sideloading)**: Go to the [Releases](https://github.com/<your-username>/agentic-study-showcase/releases) section and download the `app-release.apk` file. Transfer it to your phone and install it. You may need to enable installation from unknown sources.
-
-3. **Privacy Policy**: Hosted publicly through GitHub Pages [here](https://<your-username>.github.io/agentic-study-showcase/privacy-policy).
-
----
 
 ## 📄 License
 
