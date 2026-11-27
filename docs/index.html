@@ -109,11 +109,11 @@
 <body>
   <div class="container">
     <h1>Privacy Policy</h1>
-    <p class="subtitle">Easy Flashcards — Last updated: September 22, 2026</p>
+    <p class="subtitle">Easy Flashcards — Last updated: November 27, 2026</p>
 
     <div class="highlight">
-      <strong>In summary:</strong> Easy Flashcards does not collect, store, or share your personal data.
-      All content remains saved exclusively on your device.
+      <strong>In summary:</strong> Easy Flashcards does not collect, store, or share your personal data on our servers.
+      All study content remains saved exclusively on your device.
     </div>
 
     <h2>1. Data Controller</h2>
@@ -124,76 +124,96 @@
       <a href="mailto:p0liz.dev@gmail.com">p0liz.dev@gmail.com</a>.
     </p>
 
-    <h2>2. Data Collected</h2>
+    <h2>2. Data Collected and Local Storage</h2>
     <p>
       <strong>We do not collect any personal data.</strong>
       The application does not require registration, does not manage user accounts, and does not collect
       personal or identifiable information (such as name, email address, geographic location, or device identifiers).
     </p>
     <p>
-      All created content (decks, flashcards, study sessions, and progress)
-      is stored locally on the user's device via local storage (AsyncStorage)
-      and is never sent to servers owned by us.
+      All created content (decks, flashcards, attached images, study sessions, and progress)
+      is stored locally on the user's device via local storage (AsyncStorage and device file storage)
+      and is never sent to databases owned by us.
     </p>
 
-    <h2>3. AI Features and Third-Party Services</h2>
+    <h2>3. AI Features and Third-Party Providers</h2>
     <p>
-      When you use the optional automatic flashcard generation feature powered by artificial intelligence,
-      the text you choose to process is transmitted to the <strong>Google Gemini</strong> API
-      via a secure HTTPS connection.
+      When you use the optional automatic flashcard generation or remediation features powered by artificial
+      intelligence, the study material you choose to process (text, images, or PDF documents) is transmitted via a
+      secure HTTPS connection to third-party AI providers—currently <strong>OpenAI</strong> and
+      <strong>Google (Gemini)</strong>.
     </p>
     <ul>
-      <li>The text is transmitted solely for the purpose of extracting and generating the requested flashcards.</li>
-      <li>Our backend acts as a simple forwarding proxy and <strong>does not store or track</strong> the submitted text.</li>
-      <li>The processing of the text is subject to Google's terms and policies:
+      <li>The submitted material is processed solely to extract text, crop figures, generate embeddings for duplicate
+        detection, and create the requested flashcards.</li>
+      <li>Our backend acts solely as a temporary forwarding and processing proxy and <strong>does not store, log, or
+          retain</strong> your submitted text, images, or PDFs once the request is complete.</li>
+      <li>The processing of submitted data is subject to the respective terms and privacy policies of the AI providers:
+        <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">
+          OpenAI Privacy Policy
+        </a>
+        and
         <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">
           Google Gemini API Terms of Service
         </a>.
       </li>
-      <li>No data is retained once the generation is complete.</li>
     </ul>
 
-    <h2>4. Advertising and Tracking</h2>
+    <h2>4. In-App Purchases and Subscriptions</h2>
+    <p>
+      If you subscribe to the optional <strong>Plus</strong> plan, billing and payment processing are handled
+      exclusively by your device's official app marketplace (<strong>Google Play</strong> or the
+      <strong>Apple App Store</strong>). We never collect or have access to your payment card or billing details.
+    </p>
+    <p>
+      To verify active subscription entitlements and manage monthly AI generation quotas, the App uses
+      <strong>RevenueCat</strong> with an anonymous app-generated identifier (not linked to your name or email). For
+      more details, see the
+      <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.
+    </p>
+
+    <h2>5. Advertising and Tracking</h2>
     <p>
       Easy Flashcards <strong>does not include</strong> advertisements, profiling SDKs,
       tracking tools, or third-party analytics platforms.
     </p>
 
-    <h2>5. Data Security</h2>
+    <h2>6. Data Security</h2>
     <p>
-      All network communications required for AI generation use industry-standard encryption
-      (HTTPS / TLS). Because your study data resides solely within your device's local storage,
-      it is not exposed to remote security risks.
+      All network communications required for AI generation and subscription verification use industry-standard
+      encryption (HTTPS / TLS). Because your study data resides solely within your device's local storage,
+      it is not exposed to remote database breaches.
     </p>
 
-    <h2>6. User Rights and Deletion</h2>
+    <h2>7. User Rights and Deletion</h2>
     <p>
-      Because we do not collect data on remote servers, you have full and total control over all your data.
+      Because we do not collect personal data on remote servers, you have full and total control over all your data.
       You can delete any deck or flashcard directly within the application at any time.
       Uninstalling the application or clearing the app data from your device settings
-      will permanently remove all saved data.
+      will permanently remove all locally saved data.
     </p>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>8. Children's Privacy</h2>
     <p>
       The application is designed for a general audience aged 13 and older.
       We do not knowingly collect any information from children.
     </p>
 
-    <h2>8. Changes to This Policy</h2>
+    <h2>9. Changes to This Policy</h2>
     <p>
       Any updates to this Privacy Policy will be communicated by updating this page
       and modifying the "Last updated" date.
     </p>
 
-    <h2>9. Contact Us</h2>
+    <h2>10. Contact Us</h2>
     <p>
       For any questions, concerns, or clarifications regarding our Privacy Policy, you can write to:<br />
       ✉️ <a href="mailto:p0liz.dev@gmail.com">p0liz.dev@gmail.com</a>
     </p>
 
     <footer>
-      &copy; 2026 P0liz — Easy Flashcards. All rights reserved.
+      &copy; 2026 P0liz — Easy Flashcards. All rights reserved. &middot;
+      <a href="./terms.html">Terms of Service</a>
     </footer>
   </div>
 </body>
